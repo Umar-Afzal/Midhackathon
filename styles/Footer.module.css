@@ -1,0 +1,27 @@
+.linksinner{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 20px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(6,1fr);
+    align-items:flex-start;
+    justify-content: center;
+}
+.linksinner a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+}
+.linksinner li{
+    list-style: none;
+}
+.links{
+    background: #35424a;;
+    color: white;
+    font-size: 12px;
+    padding: 35px 0;
+}
+.links li{
+    line-height: 2.1;
+}
